@@ -1,0 +1,20 @@
+{
+  "name": "terceraEntregaEsquivel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orinsh/averyterrence-bookstore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orinsh/averyterrence-bookstore/issues"
+  },
+  "homepage": "https://github.com/orinsh/averyterrence-bookstore#readme"
+}

@@ -1,0 +1,64 @@
+/*ABOUT*/
+.content-about {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+/*ABOUT ENDS*/
+/*BOOKSTORE*/
+.bookstore-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.bookstore-container .book-order {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding-top: 20px;
+}
+@media (min-width: 0px) and (max-width: 1200px) {
+  .bookstore-container .book-order {
+    grid-template-columns: 1fr;
+  }
+}
+.bookstore-container .book-order .book1-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.bookstore-container .book-order .book2-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.bookstore-container .book-order .ebook1-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+/*BOOKSTORE ENDS*/
+/*FREQUENTLY ASKED QUESTIONS*/
+.faq-order {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*FREQUENTLY ASKED QUESTIONS ENDS*/
+/*CUSTOMER SUPPORT*/
+.customersupport-order {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*CUSTOMER SUPPORT ENDS*/
+
+/*# sourceMappingURL=style.css.map */

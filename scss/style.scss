@@ -1,0 +1,76 @@
+
+
+/*ABOUT*/
+
+.content-about {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+/*ABOUT ENDS*/
+
+/*BOOKSTORE*/
+
+.bookstore-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  .book-order {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding-top: 20px;
+
+    @media (min-width: 0px) and (max-width: 1200px) {
+
+      grid-template-columns: 1fr;
+    }
+
+    .book1-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .book2-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .ebook1-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+  }
+}
+
+/*BOOKSTORE ENDS*/
+
+/*FREQUENTLY ASKED QUESTIONS*/
+
+.faq-order {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*FREQUENTLY ASKED QUESTIONS ENDS*/
+
+/*CUSTOMER SUPPORT*/
+
+.customersupport-order {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*CUSTOMER SUPPORT ENDS*/
+

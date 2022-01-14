@@ -1,0 +1,156 @@
+.home-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  gap: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #b2acfa;
+  padding: 90px 20px 0;
+}
+
+select {
+  font-family: "Barlow", sans-serif;
+  color: #b2acfa;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+  border: 2px white solid;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+input {
+  font-family: "Barlow", sans-serif;
+  color: #b2acfa;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+  border: 2px white solid;
+  padding: 5px;
+}
+
+label {
+  color: #ffffff;
+}
+
+textarea {
+  font-family: "Barlow", sans-serif;
+  color: #b2acfa;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+  border: 2px white solid;
+  padding: 5px;
+  resize: none;
+}
+
+body {
+  background-color: #b2acfa;
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  padding: 100px 140px 0 140px;
+  text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+pre {
+  color: #ffffff;
+  font-family: "Barlow", sans-serif;
+}
+
+button {
+  color: #b2acfa;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+  border: 2px white solid;
+  cursor: pointer;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: #b2acfa;
+  color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+table {
+  color: #ffffff;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  gap: 50px;
+      grid-template-areas: "sidebar main-container";
+}
+
+.sidebar {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: sidebar;
+}
+
+.main-container {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: main-container;
+}
+
+.main-container .book-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  gap: 25px;
+}
+
+.main-container .book-container .book {
+  padding-right: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.main-container .book-container .book .product-description {
+  text-align: justify;
+  text-justify: inter-word;
+}
+/*# sourceMappingURL=index.css.map */
